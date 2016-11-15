@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="list_divider">#5e5e5e</color>
+    <color name="drawer_bag">#ff313741</color>
+    <color name="drawer_bag2">#ff272727</color>
+    <color name="orange_dark">#F5B100</color>
+    <color name="orange2">#FFBB33</color>
+    <color name="btm_main_all">#ff686868</color>
+    <color name="text_main">#96414141</color>
+    <color name="mini_red">#BE1E2D</color>
+    <color name="line_drawer">#FF805A20</color>
+    <color name="white">#ffffff</color>
+</resources>

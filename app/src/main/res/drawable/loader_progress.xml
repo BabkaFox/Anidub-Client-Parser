@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader00"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader01"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader02"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader03"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader04"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader05"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader06"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader07"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader08"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader09"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader10"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader11"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader12"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader13"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader14"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader15"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader16"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader17"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader18"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader19"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader20"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader21"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader22"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader23"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader24"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader25"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader26"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader27"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/loader28"
+            android:scaleGravity="center" />
+    </item>
+
+    </animation-list>

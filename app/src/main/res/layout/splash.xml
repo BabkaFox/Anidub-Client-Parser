@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+
+            android:contentDescription=""
+            android:id="@+id/vLogo"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="100dp" />
+
+        <ProgressBar
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            android:id="@+id/progressBar"
+            android:indeterminateDrawable="@drawable/loader_progress"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Обновить"
+            android:id="@+id/btmReconect"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:background="@color/orange_dark"
+            android:layout_marginBottom="20dp"
+            android:textSize="25sp"
+            android:textColor="@color/drawer_bag2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Потеряна связь :("
+            android:id="@+id/txtConectError"
+            android:layout_gravity="center"
+            android:textColor="@color/orange_dark"
+            android:visibility="gone" />
+    </FrameLayout>
+
+</LinearLayout>

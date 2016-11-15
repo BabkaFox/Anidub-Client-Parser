@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Anidub</string>
+    <string name="title_section1">Моя страница</string>
+    <string name="title_section2">Главная</string>
+    <string name="title_section3">Закладки</string>
+    <string name="title_section4">Подписки</string>
+    <string name="title_section5">Аниме Ongoing</string>
+    <string name="title_section6">Аниме TV</string>
+    <string name="title_section7">Аниме Фильмы</string>
+    <string name="title_section8">Аниме OVA</string>
+    <string name="title_section9">Дорамы</string>
+    <string name="title_section10">Каталог аниме</string>
+    <string name="title_section11">Поиск</string>
+
+    <string-array name="genre">
+        <item>Все жанры</item>
+        <item>Сёнэн</item>
+        <item>Романтика</item>
+        <item>Драма</item>
+        <item>Комедия</item>
+        <item>Этти</item>
+        <item>Меха</item>
+        <item>Фантастика</item>
+        <item>Фентези</item>
+        <item>Повседневность</item>
+        <item>Школа</item>
+        <item>Война</item>
+        <item>Сёдзё</item>
+        <item>Детектив</item>
+        <item>Ужасы</item>
+        <item>История</item>
+        <item>Триллер</item>
+        <item>Приключения</item>
+        <item>Киберпанк</item>
+        <item>Мистика</item>
+        <item>Музыкальный</item>
+        <item>Спорт</item>
+        <item>Пародия</item>
+        <item>Для детей</item>
+        <item>Махо-сёдзе</item>
+        <item>Сказка</item>
+        <item>сёдзё-ай</item>
+        <item>Сёнэн-ай</item>
+        <item>Боевые искусства</item>
+        <item>Самурайский боевик</item>
+    </string-array>
+    <string-array name="years">
+        <item>Все года</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+    </string-array>
+    <string-array name="dubbers">
+        <item>Все дабберы</item>
+        <item>Ancord</item>
+        <item>Cuba77</item>
+        <item>Nika Linina</item>
+        <item>Онитян</item>
+        <item>Inspector_Gadjet</item>
+        <item>OSLIKt</item>
+        <item>Trina_D</item>
+        <item>Shina</item>
+        <item>Lord Alukart</item>
+        <item>MCShaman</item>
+        <item>Стефан</item>
+        <item>Keita</item>
+        <item>Holly</item>
+        <item>Lonely Dragon</item>
+        <item>Tinko</item>
+        <item>Tori</item>
+        <item>Oriko</item>
+        <item>Trouble</item>
+        <item>JAM</item>
+        <item>BalFor</item>
+        <item>Симбад</item>
+        <item>FruKt</item>
+        <item>Kiara_Laine</item>
+        <item>Гамлетка Цезаревна</item>
+        <item>NASTR</item>
+    </string-array>
+
+    <string name="txtLogin">Логин</string>
+    <string name="txtPass">Пароль</string>
+    <string name="btnLogin">Вход</string>
+    <string name="btnRazlogin">Выход</string>
+    <string name="btnInFavors">В закладки</string>
+    <string name="btnWatch">Смотреть</string>
+    <string name="txtLaterWatch">Отложенные просмотры</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Настройки</string>
+
+    <string name="title_text_news">Новинки</string>
+    <string name="title_text_tv">TOP 20 Аниме TV</string>
+    <string name="title_text_ongoing">TOP 20 Аниме Ongoing</string>
+    <string name="title_text_films">TOP 20 Аниме Фильмы</string>
+    <string name="title_text_Ova">TOP 20 Аниме OVA</string>
+    <string name="title_text_dorams">TOP 20 Аниме Дорамы</string>
+    <string name="title_text_all">Все</string>
+    <string name="search">Поиск</string>
+
+    <string name="descr_image">Image</string>
+
+</resources>

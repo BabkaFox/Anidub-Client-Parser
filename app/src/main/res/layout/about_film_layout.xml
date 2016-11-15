@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/about_film"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/drawer_bag2">
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_gravity="center_horizontal"
+        android:indeterminateDrawable="@drawable/loader_progress_login"
+        android:layout_marginTop="5dp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:clickable="false">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:baselineAligned="false">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginTop="2dp">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp">
+
+                    <ImageView
+                        android:id="@+id/posterImg"
+                        android:layout_width="92dp"
+                        android:layout_height="125dp"
+                        android:scaleType="centerCrop"
+                        android:tag="img"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_marginBottom="2dp"
+                        android:layout_marginTop="2dp" />
+
+                    <GridLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Количество серий: 14"
+                            android:id="@+id/txtCountSeries"
+                            android:textSize="12dp"
+                            android:layout_column="0"
+                            android:layout_row="5" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Жанр: комедия, романтика, повседневность"
+                            android:id="@+id/txtGenre"
+                            android:textSize="12dp"
+                            android:layout_column="0"
+                            android:layout_row="4"
+                            android:layout_columnSpan="3" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Озвучивание: JAM, Гамлетка Цезаревна"
+                            android:id="@+id/txtDubbers"
+                            android:textSize="12dp"
+                            android:layout_column="0"
+                            android:layout_row="3"
+                            android:layout_columnSpan="3" />
+
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/icoSub"
+                            android:src="@drawable/add_sub"
+                            android:layout_weight="1"
+                            android:layout_row="0"
+                            android:layout_column="2"
+                            android:layout_gravity="right" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Год: 2014"
+                            android:id="@+id/txtYear"
+                            android:textSize="12dp"
+                            android:layout_row="2"
+                            android:layout_column="0" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Рейтинг: 4.7/5"
+                            android:id="@+id/txtRating"
+                            android:textIsSelectable="false"
+                            android:textSize="12dp"
+                            android:layout_column="0"
+                            android:layout_row="6"
+                            android:layout_columnSpan="1" />
+
+                        <RatingBar
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ratingBar"
+                            android:numStars="5"
+                            android:stepSize="1.0"
+                            style="?android:attr/ratingBarStyleSmall"
+                            android:mirrorForRtl="false"
+                            android:layout_column="1"
+                            android:layout_row="6"
+                            android:layout_gravity="right"
+                            android:layout_columnSpan="2"
+                            android:layout_marginRight="2dp" />
+
+                        <TextView
+                            android:layout_width="230dp"
+                            android:layout_height="wrap_content"
+                            android:textAppearance="?android:attr/textAppearanceLarge"
+                            android:text="Название фильма"
+                            android:id="@+id/txtNameFilm"
+                            android:layout_marginBottom="2dp"
+                            android:textSize="16dp"
+                            android:layout_row="0"
+                            android:layout_column="0"
+                            android:layout_rowSpan="1"
+                            android:layout_columnSpan="2"
+                            android:layout_marginTop="5dp" />
+
+                    </GridLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Описание: "
+                android:textColor="@color/orange_dark"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="2dp"
+                android:layout_column="0"
+                android:textSize="16dp" />
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Описание: 16-летняя Тиё Сакура наконец-то решилась признаться статному красавцу-спортсмену Умэтаро Нодзаки из соседнего класса. Вот только силенок ясно выразить свои чувства ей не хватило – на первую часть сбивчивой речи парень отреагировал, дав автограф, а когда Сакура все же смогла выдать, что хочет быть с ним… просто пригласил в гости! Там девушка и поняла, что спорт у ее избранника уже в прошлом, а ныне он – успешный автор девичьей манги, творящий под женским псевдонимом Сакико Юмэно. Что ж, Тиё тоже неплохо владеет кистью, а помогать дорогому человеку – дело святое! "
+                    android:id="@+id/txtFilmDescriptionsMini"
+                    android:textSize="12dp"
+                    android:layout_margin="5dp" />
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Серия: "
+                android:textColor="@color/orange_dark"
+                android:layout_marginTop="2dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="2dp"
+                android:layout_column="0"
+                android:textSize="16dp" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp">
+
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/spinnerSeries"
+                    android:layout_gravity="center_horizontal">
+
+                </Spinner>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@android:drawable/editbox_dropdown_light_frame"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/btnInFavors"
+                    android:id="@+id/inFavor"
+                    android:layout_weight="1.5"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal" />
+
+                <View
+                    android:layout_width="1dp"
+                    android:layout_height="fill_parent"
+                    android:background="#bebebe"
+                    android:layout_margin="5dp" />
+
+                ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/vert_line" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="@string/btnWatch"
+                    android:id="@+id/watchNow"
+                    android:layout_weight="2"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:background="@color/drawer_bag2"
+                android:weightSum="1"
+                android:layout_margin="1dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Рекомендуем также: "
+                    android:layout_margin="5dp"
+                    android:textSize="20sp"
+                    android:textColor="@color/orange_dark" />
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@android:drawable/editbox_dropdown_light_frame"
+                    android:layout_margin="2dp">
+
+                    <GridView
+                        android:id="@+id/gridRecomend"
+                        android:layout_width="match_parent"
+                        android:layout_height="125dp"
+                        android:gravity="center"
+                        android:horizontalSpacing="4dip"
+                        android:numColumns="4"
+                        android:stretchMode="columnWidth"
+                        android:verticalSpacing="4dip"
+                        android:padding="3dip" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>

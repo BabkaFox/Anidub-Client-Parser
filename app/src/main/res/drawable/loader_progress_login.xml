@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+    android:oneshot="false"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader00"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader01"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader02"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader03"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader04"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader05"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader06"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader07"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader08"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader09"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader10"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader11"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader12"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader13"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader14"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader15"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader16"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader17"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader18"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader19"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader20"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader21"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader22"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader23"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader24"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader25"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader26"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader27"
+            android:scaleGravity="center" />
+    </item>
+
+    <item android:duration="100">
+        <scale android:drawable="@drawable/login_loader28"
+            android:scaleGravity="center" />
+    </item>
+
+</animation-list>
